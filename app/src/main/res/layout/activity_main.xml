@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.anastasia.myapplication.MainActivity">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="125dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/textView2"
+            app:layout_constraintBottom_toTopOf="@+id/listView"
+            tools:layout_editor_absoluteX="16dp" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="286dp"
+        android:layout_height="387dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:elevation="1dp"
+        android:text="@string/button"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+</LinearLayout>

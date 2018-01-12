@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.anastasia.myapplication.EditActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="238dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/textView1"
+        app:layout_constraintBottom_toTopOf="@+id/rB17"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <RadioButton
+        android:id="@+id/rB17"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/rB5"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <RadioButton
+        android:id="@+id/rB6"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/rB6"
+        app:layout_constraintBottom_toTopOf="@+id/rB19"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <RadioButton
+        android:id="@+id/rB19"
+        android:layout_width="116dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="15dp"
+        android:baselineAligned="false"
+        android:text="@string/rB7"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <RadioButton
+        android:id="@+id/rB8"
+        android:layout_width="120dp"
+        android:layout_height="38dp"
+        android:text="@string/rB8"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="333dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button4"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="386dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button5"
+            tools:layout_editor_absoluteX="252dp"
+            tools:layout_editor_absoluteY="386dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
