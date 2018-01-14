@@ -18,21 +18,22 @@ public class EditActivity4 extends AppCompatActivity {
         button8=(Button) findViewById(R.id.button8) ;
         button9=(Button) findViewById(R.id.button9) ;
 
-        button8.setOnClickListener(new View.OnClickListener() {
+        View.OnClickListener onClickListener= new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(EditActivity4.this,EditActivity3.class);
-                startActivity(intent);
+                switch (v.getId()){
+                    case R.id.button8:
+                        Intent intent=new Intent(EditActivity4.this,EditActivity3.class);
+                        startActivity(intent);
+                        break;
+                    case R.id.button9:
+                        Intent intent1 = new Intent(EditActivity4.this, EditActivity5.class);
+                        startActivity(intent1);
+                        break;
+                }
             }
-        });
-        button9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent intent1 = new Intent(EditActivity4.this, EditActivity5.class);
-
-                startActivity(intent1);
-            }
-        });
+        };
+        button8.setOnClickListener(onClickListener);
+        button9.setOnClickListener(onClickListener);
     }
 }

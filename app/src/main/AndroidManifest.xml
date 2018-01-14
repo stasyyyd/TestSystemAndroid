@@ -21,9 +21,8 @@
         <activity android:name=".EditActivity3" />
         <activity android:name=".EditActivity4" />
         <activity android:name=".EditActivity5" />
-        <activity
-            android:name=".FinishActivity"
-            android:label="@string/title_activity_finish"></activity>
+        <activity android:name=".EndActivity" />
+        <activity android:name=".Main2Activity"></activity>
     </application>
 
 </manifest>
